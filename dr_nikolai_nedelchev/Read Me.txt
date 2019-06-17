@@ -1,4 +1,4 @@
-Създаден Юни 2019
+РЎСЉР·РґР°РґРµРЅ Р®РЅРё 2019
 
 Platform: WordPress
 database: dr_nikolai_nedelchev.sql
