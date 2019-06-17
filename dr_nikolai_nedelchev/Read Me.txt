@@ -1,0 +1,7 @@
+Създаден Юни 2019
+
+Platform: WordPress
+database: dr_nikolai_nedelchev.sql
+
+user: admin
+pass: admin
