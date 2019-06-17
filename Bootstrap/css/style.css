@@ -1,0 +1,43 @@
+
+.jumbotron{
+	margin-bottom:0px;
+}
+.container{
+	margin-top:30px
+}
+.mainNav{
+	margin-left:0px;
+}
+.nav-item{
+	margin-left:-6px;
+}
+.searchWrapper{
+	margin-bottom:20px;
+	padding:5px;
+}
+.btn-primary{
+	text-align:left;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-right:25px;
+	padding-left:20px;
+	width: 100%;
+	margin-left:0px;
+}
+.footerNav{
+	margin: 0px 35px 20px 35px;
+}
+.footerNavbar{
+	margin-bottom:50px;
+}
+.footerWrapper{
+	padding-top:10px;
+	margin-top:40px;
+	padding-bottom:5px;
+}
+#myCarousel{
+	padding: 0px 10px 15px 10px;
+}
+.newsGroup{
+	font-size: 0.85em;
+}

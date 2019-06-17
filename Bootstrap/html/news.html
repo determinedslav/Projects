@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<div class="jumbotron text-center">
+		<h1>Факултет по Математика и Информатика</h1>
+	</div>
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+		<div class="navbar-brand" href="#"></div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+			<ul class="navbar-nav mainNav">
+				<li class="nav-item">
+					<div class="dropdown">
+						<button type="button" class="btn btn-primary" data-toggle="dropdown" onclick="location.href='index.html'">
+							Начало
+						</button>
+					</div> 
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+							За ФМИ
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="courses.html">Визитка</a>
+							<a class="dropdown-item" href="courses.html">История</a>
+							<a class="dropdown-item" href="courses.html">Местоположение</a>
+							<a class="dropdown-item" href="courses.html">Снимки</a>
+							<a class="dropdown-item" href="courses.html">Материална база</a>
+							<a class="dropdown-item" href="courses.html">Проекти</a>
+						</div>
+					</div> 
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+							Обучение
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="courses.html">Бакалавърски програми</a>
+							<a class="dropdown-item" href="courses.html">Магистърски програми</a>
+							<a class="dropdown-item" href="courses.html">Докторантури</a>
+							<a class="dropdown-item" href="courses.html">Курсове</a>
+						</div>
+					</div> 
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+							Учебен график
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="courses.html">Учебни разписания</a>
+							<a class="dropdown-item" href="courses.html">Изпитни сесии</a>
+							<a class="dropdown-item" href="courses.html">Държавни изпити</a>
+							<a class="dropdown-item" href="courses.html">Академичен календар</a>
+						</div>
+					</div> 
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+							Кандидатстване
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="courses.html">Бакалавър</a>
+							<a class="dropdown-item" href="courses.html">Магистър</a>
+							<a class="dropdown-item" href="courses.html">Доктор</a>
+						</div>
+					</div> 
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+							Състав
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="courses.html">Ръководство</a>
+							<a class="dropdown-item" href="courses.html">Катедри</a>
+							<a class="dropdown-item" href="courses.html">Администрация</a>
+							<a class="dropdown-item" href="courses.html">Преподаватели</a>
+						</div>
+					</div> 
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+							Студенти
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="courses.html">Състезания</a>
+							<a class="dropdown-item" href="courses.html">Проекти</a>
+							<a class="dropdown-item" href="courses.html">Студентски съвет</a>
+							<a class="dropdown-item" href="courses.html">Стипендии</a>
+							<a class="dropdown-item" href="courses.html">Стажове</a>
+						</div>
+					</div> 
+				</li>				
+			</ul>
+		</div>		
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-12  searchWrapper">
+				<form class="form-inline float-right" action="">
+					<input class="form-control mr-sm-2 form-control-sm" type="text" placeholder="Търсене">
+					<button class="btn btn-success btn-sm" type="submit">Търси</button>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-9">
+				<h2>Новини</h2>
+				<div class="list-group newsGroup">
+					<a href="#" class="list-group-item list-group-item-action">Студентски курс по информатика и програмиране на С#</a>
+					<a href="#" class="list-group-item list-group-item-action">Практика по специалността за 3 курс Информатика, редовно обучение</a>
+					<a href="#" class="list-group-item list-group-item-action">Практика по специалността за 3 курс Софтуерно инженерство</a>
+					<a href="#" class="list-group-item list-group-item-action">Относно подписване на дипломи от бакалаври и магистри, дипломирани през учебната 2017/18 г.</a>
+					<a href="#" class="list-group-item list-group-item-action">Избираеми дисциплини 2018/19, Пролетен триместър, редовно об.</a>
+					<a href="#" class="list-group-item list-group-item-action">Покана за публична защита</a>
+					<a href="#" class="list-group-item list-group-item-action">Стипендии за втори семестър на учебната 2018/2019 година</a>
+					<a href="#" class="list-group-item list-group-item-action">48. Пролетна конференция на СМБ (Второто съобщение)</a>
+					<a href="#" class="list-group-item list-group-item-action">Сбирка 21 на Научния семинар по алгебра и геометрия</a>
+					<a href="#" class="list-group-item list-group-item-action">Национална конференция: "Педагогика на обучението по математика и информатика"</a>
+					<a href="#" class="list-group-item list-group-item-action">Магистърски програми и допълнителни квалификации за учебната 2018/2019 г.</a>		
+					<a href="#" class="list-group-item list-group-item-action">Летни стажове 2018</a>
+					<a href="#" class="list-group-item list-group-item-action">Срок за плащане на втората семестриална такса</a>
+					<a href="#" class="list-group-item list-group-item-action">Покана за публична защита</a>
+					<a href="#" class="list-group-item list-group-item-action">Покана за среща на фирма Програмиста със студенти във връзка с предстоящи стажове</a>
+				</div>
+				<br>
+				<ul class="pagination justify-content-center">
+					<li class="page-item"><a class="page-link" href="#"><</a></li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">></a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h2 class="text-center text-primary font-weight-bold"><a href="#">Новини</a></h2>
+				<div class="list-group newsGroup">
+					<a href="#" class="list-group-item list-group-item-action">Студентски курс по информатика и програмиране на С#</a>
+					<a href="#" class="list-group-item list-group-item-action">Практика по специалността за 3 курс Информатика, редовно обучение</a>
+					<a href="#" class="list-group-item list-group-item-action">Практика по специалността за 3 курс Софтуерно инженерство</a>
+					<a href="#" class="list-group-item list-group-item-action">Относно подписване на дипломи от бакалаври и магистри, дипломирани през учебната 2017/18 г.</a>
+					<a href="#" class="list-group-item list-group-item-action">Избираеми дисциплини 2018/19, Пролетен триместър, редовно об.</a>
+					<a href="#" class="list-group-item list-group-item-action">Покана за публична защита</a>
+					<a href="#" class="list-group-item list-group-item-action">Стипендии за втори семестър на учебната 2018/2019 година</a>
+					<a href="#" class="list-group-item list-group-item-action">48. Пролетна конференция на СМБ (Второто съобщение)</a>
+					<a href="#" class="list-group-item list-group-item-action">Сбирка 21 на Научния семинар по алгебра и геометрия</a>
+					<a href="#" class="list-group-item list-group-item-action">Национална конференция: "Педагогика на обучението по математика и информатика"</a>					
+				</div>
+				<hr class="d-sm-none">
+			</div>
+		</div>
+	</div>
+	<div class="jumbotron text-center footerWrapper">
+		<div class="navbar navbar-expand-md justify-content-center footerNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item footerNav">
+					<a class="nav-link text-dark font-weight-bold" href="#">Форум</a>
+				</li>
+				<li class="nav-item footerNav">
+					<a class="nav-link text-dark font-weight-bold" href="#">Поща</a>
+				</li>
+				<li class="nav-item footerNav">
+					<a class="nav-link text-dark font-weight-bold" href="#">Карта на сайта</a>
+				</li>
+				<li class="nav-item footerNav">
+					<a class="nav-link text-dark font-weight-bold" href="#">Връзки</a>
+				</li>
+				<li class="nav-item footerNav">
+					<a class="nav-link text-dark font-weight-bold" href="#">Контакти</a>
+				</li>
+			</ul>
+		</div>
+		<p>Ⓒ 2019 ФМИ</p>
+	</div>
+</body>
+</html>
